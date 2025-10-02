@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python
+mediapipe
+torch            # or tensorflow
+torchvision
+tqdm
+pyyaml           # if using YAML configs
+pydantic         # if parsing configs
