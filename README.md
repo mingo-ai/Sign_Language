@@ -32,15 +32,6 @@ train_classifier.py    # Trains a classifier on saved landmarks and exports weig
 webcam_infer.py        # Real-time inference via webcam using exported weights
 ```
 
-Optional structure you might adopt:
-```
-checkpoints/           # Trained weights & logs (not tracked by git if large)
-configs/               # YAML/JSON configs
-data/                  # Raw media (not in git)
-landmarks/             # Preprocessed features
-scripts/               # Helper scripts, e.g., dataset splits, eval
-```
-
 ---
 
 ## Dependencies
